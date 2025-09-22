@@ -1,6 +1,11 @@
 Want my output handler to say hi would you like to translate from letter to code or vice versa?
 User inputs letters or morse code
 
+MORSE CODE {
+    1) morse code property 
+    2)morse to letter function
+    3)letter to morse function
+}
 One space between Morse characters (e.g., .... . .-.. .-.. ---)
 Use "/" for word separation (e.g., .... . .-.. .-.. --- / .-- --- .-. .-.. -..)
 Use map to split letters is it has a space between then and a dash
@@ -11,12 +16,18 @@ user to try again
 
 Want to make a function that iterates over every piece of the morse code
 if this is a morse code -> then its this letter
-if space then join? 
+if space then join?
 if / then space
 else if theres an incorrect thing try again
 
 separate function for english to morse than morse to english
 
 Need to go over use commands in scala, mapping in scala
+Functions in SCALA
 Morse code what kind of class would it need to be - public or protected
+morse code abstract ?
 Does everything need to take place in main? - does it need a main
+Use higher order function ? not sure
+function recieves a function if a then a function if b then  a different function
+
+input handler extends morse code object ?
