@@ -9,11 +9,14 @@ then return output and vice versa
 If use selects something that isn't a valid letter or more code then it wont throw an error it'll just tell the
 user to try again
 
-Want to make a function that iterates over every peice of the morse code
+Want to make a function that iterates over every piece of the morse code
 if this is a morse code -> then its this letter
-if space then join?
+if space then join? 
+if / then space
 else if theres an incorrect thing try again
 
 separate function for english to morse than morse to english
 
 Need to go over use commands in scala, mapping in scala
+Morse code what kind of class would it need to be - public or protected
+Does everything need to take place in main? - does it need a main
