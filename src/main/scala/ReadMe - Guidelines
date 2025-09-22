@@ -1,0 +1,26 @@
+Morse Code Scala Instructions
+Functional Requirements
+Accept user input via command line
+Translate:
+English → Morse
+Morse → English
+Follow these spacing conventions:
+One space between Morse characters (e.g., .... . .-.. .-.. ---)
+Use "/" for word separation (e.g., .... . .-.. .-.. --- / .-- --- .-. .-.. -..)
+
+Architecture
+Split the program into the following Scala objects/classes:
+
+InputHandler: Handles reading and validating input
+OutputHandler: Handles printing the result
+Translator: Contains all conversion logic
+MorseCode: Stores the Morse mappings (as a Map[Char, String])
+Use pure functions in Translator to make testing easy.
+
+Unit Testing
+Use ScalaTest
+Test:
+English to Morse
+Morse to English
+Word separation
+Invalid inputs

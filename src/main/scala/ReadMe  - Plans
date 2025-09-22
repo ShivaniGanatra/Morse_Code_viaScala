@@ -1,0 +1,19 @@
+Want my output handler to say hi would you like to translate from letter to code or vice versa?
+User inputs letters or morse code
+
+One space between Morse characters (e.g., .... . .-.. .-.. ---)
+Use "/" for word separation (e.g., .... . .-.. .-.. --- / .-- --- .-. .-.. -..)
+Use map to split letters is it has a space between then and a dash
+then return output and vice versa
+
+If use selects something that isn't a valid letter or more code then it wont throw an error it'll just tell the
+user to try again
+
+Want to make a function that iterates over every peice of the morse code
+if this is a morse code -> then its this letter
+if space then join?
+else if theres an incorrect thing try again
+
+separate function for english to morse than morse to english
+
+Need to go over use commands in scala, mapping in scala
