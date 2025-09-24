@@ -10,3 +10,4 @@ class MorseCode extends App{
   )
   val reversedMorse = morseCode.map(x => x.swap) //reversed key value to value key
 }
+

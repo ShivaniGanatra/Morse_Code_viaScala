@@ -1,4 +1,4 @@
-object InputHandler {
+class InputHandler {
   //https://www.geeksforgeeks.org/scala/how-to-take-input-from-a-user-in-scala/
     def main(args: Array[String]): Unit = {
       println("Enter your name:")
@@ -14,5 +14,7 @@ object InputHandler {
       val value = scala.io.StdIn.readLine()
       println("The translated word/sentence is ....")
     }
+
+    //OutputHandler.printResultMorseToWords("hello")
   }
 
