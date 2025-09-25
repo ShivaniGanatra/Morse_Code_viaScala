@@ -8,6 +8,6 @@ class MorseCode extends App{
     'U' -> "..-", 'V' -> "...-", 'W' -> ".--", 'X' -> "-..-",
     'Y' -> "-.--", 'Z' -> "--..", ' ' -> "/"
   )
-  val MorseToLetter = letterToMorse.map(x => x.swap) //reversed key value to value key
+  val morseToLetter = letterToMorse.map(x => x.swap) //reversed key value to value key
 }
 
